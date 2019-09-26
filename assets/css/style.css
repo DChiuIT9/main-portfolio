@@ -1,0 +1,41 @@
+body {
+    margin: auto;
+    width: 960px;
+}
+
+.topnavbar {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.topnavbarbox {
+    display: inline-block;
+    text-align: left;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.image-cropper {
+    width: 200px;
+    height: 200px;
+    /* position: relative; */
+    overflow: hidden;
+    border-radius: 50%;
+    /* border-style: solid; */
+    margin-left: 40px;
+    margin-right: 40px;
+    float: left;
+}
+#portrait {
+  display: inline;
+  margin: 0 auto;
+  /* height: 100%; */
+  /* width: auto; */
+}
+
+#about-me {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-right: 40px;
+}
