@@ -1,32 +1,53 @@
 body {
     margin: auto;
-    width: 960px;
+    /* width: 960px; */
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
 }
 
-.header {
+#top-sect {
+    background-color: #191a1d;
+    margin: auto;
+}
+
+.topheader {
+    box-sizing: border-box;
+    padding-top: 2%;
     text-align: center;
+    font-size: 50px;
+    color: orange;
 }
 
 a:link {
     text-decoration: none;
+    color: #ABABAB;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #ABABAB;
 }
 
 a:hover {
     text-decoration: underline;
+    color: white;
 }
 
 .topnavbar {
     text-align: center;
     display: inline-block;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 15px;
+    color: #ABABAB;
 }
 
 .topnavbarbox {
     display: inline-block;
     text-align: left;
+}
+
+#bottom-sect {
+    background-color: white;
+    height: 100%;
 }
 
 .image-cropper {
@@ -35,7 +56,6 @@ a:hover {
     /* position: relative; */
     overflow: hidden;
     border-radius: 50%;
-    /* border-style: solid; */
     margin-left: 40px;
     margin-right: 40px;
     float: left;
@@ -51,3 +71,5 @@ a:hover {
     color: #777777;
     margin-right: 40px;
 }
+
+
