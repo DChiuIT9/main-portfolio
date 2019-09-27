@@ -1,19 +1,32 @@
 body {
     margin: auto;
     width: 960px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+.header {
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .topnavbar {
     text-align: center;
     display: inline-block;
     width: 100%;
-    margin-top: 10%;
+    margin-top: 20px;
 }
 
 .topnavbarbox {
     display: inline-block;
     text-align: left;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .image-cropper {
@@ -36,6 +49,5 @@ body {
 
 #about-me {
     color: #777777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin-right: 40px;
 }
